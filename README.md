@@ -30,22 +30,39 @@ The standalone **Micro-Innovation Discovery Engine (MIDE)** was developed as a c
 ### Supplementary Material 1 — PubChat 8-Language Retrieval Output for 20 CDSR Reviews
 
 - `1.1 Benchmark Definitions for 20 CDSR Reviews.xlsx` — Ground-truth benchmark definitions for all 20 Cochrane systematic reviews
-- `1.2.01` – `1.2.20` — Per-CDSR PubChat retrieval outputs across 8 languages (Chinese, English, French, German, Italian, Portuguese, Russian, Spanish)
+- `1.2.01` to `1.2.20` — Per-CDSR PubChat retrieval outputs across 8 languages (Chinese, English, French, German, Italian, Portuguese, Russian, Spanish)
 
 ### Supplementary Material 2 — PubChat vs 8-Tool Benchmarking Data with Evaluation Protocols
 
 - `2.1 PubChat vs 8-Tool Benchmarking Raw Data.xlsx` — Sheet S1: Retrieval Results (4,935 rows); Sheet S2: JCR Metrics (18,206 rows)
 - `2.2 Tool Evaluation Protocols and Prompt Template.docx` — Standardized evaluation protocols and prompt templates used across all tools
 
-### Supplementary Material 3 — PubChat User Survey: 42-Item Questionnaire (PDF)
+### Supplementary Material 3 — PubChat Prompt Templates and Reproducibility Details
 
-User evaluation instrument administered to 279 biomedical researchers from 18 countries, covering reliability, innovation, efficiency, user experience, and preference (28 Rasch-validated Likert-scale items).
+- `README.md` — Inventory of PubChat prompt templates and reproducibility notes
+- `3.1` to `3.8` — Individual prompt template files covering relevance-criteria generation, embedding-query construction, initial PubMed query generation, adaptive query refinement variants (`3.4.01` to `3.4.12`), article extraction, first-pass relevance scoring, second-pass score verification, and third-pass arbitration
 
-### Supplementary Material 4 — MIDE Case Study: Periodontitis and CKD
+### Supplementary Material 4 — Post Hoc Statistical Analysis of Tool Benchmarking Results
 
-- `4.1 MIDE workflow and configuration.docx` — Detailed MIDE pipeline description and configuration parameters
-- `4.2 PubChat-Generated Periodontitis-CKD Corpus with MIDE Novelty Scores.xlsx` — Sheet 1: Full Corpus (490 articles); Sheet 2: Discovery Pool (112 articles); Sheet 3: MIDE Configuration
-- `4.3 MIDE Mini-Review Output - 10 Frontier Research Directions.pdf` — Structured mini-review linking established knowledge to frontier hypotheses across the periodontitis–CKD axis
+- `4.1 Friedman Omnibus and Wilcoxon-Holm Post Hoc Statistical Tables.xlsx` — Friedman omnibus and Wilcoxon-Holm post hoc statistical tables for the 8-tool benchmarking comparisons
+
+### Supplementary Material 5 — PubChat Retrieval Stress-Testing and Boundary Analyses
+
+- `5.1.1` and `5.1.2` — AI-assisted classification protocol and stage taxonomy for missed gold-standard PubMed records
+- `5.2.1` and `5.2.2` — Relevance-threshold sensitivity analysis protocol and tables
+- `5.3.1` and `5.3.2` — Multilingual evidence-density consistency analysis protocol and tables
+- `5.4.1` and `5.4.2` — PubMed source-profile balance analysis protocol and tables
+
+### Supplementary Material 6 — PubChat User Survey: 42-Item Questionnaire and Assessment Protocol
+
+- `6.1 PubChat User Survey - 42-Item Questionnaire.pdf` — User survey questionnaire
+- `6.2 PubChat User Assessment Protocol.docx` — User assessment protocol for the 279-participant biomedical researcher evaluation, covering reliability, innovation, efficiency, user experience, and preference
+
+### Supplementary Material 7 — MIDE Case Study: Periodontitis and CKD
+
+- `7.1 MIDE workflow and configuration.docx` — Detailed MIDE pipeline description and configuration parameters
+- `7.2 PubChat-Generated Periodontitis-CKD Corpus with MIDE Novelty Scores.xlsx` — Sheet 1: Full Corpus (490 articles); Sheet 2: Discovery Pool (112 articles); Sheet 3: MIDE Configuration
+- `7.3 MIDE Mini-Review Output - 10 Frontier Research Directions.pdf` — Structured mini-review linking established knowledge to frontier hypotheses across the periodontitis–CKD axis
 
 ---
 
