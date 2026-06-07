@@ -2,7 +2,7 @@
 
 This repository contains the supplementary materials for the manuscript:
 
-**PubChat: Development and Benchmark Validation of PubChat, a PubMed-Grounded AI Framework for Multilingual Biomedical Literature Retrieval and Relevance Stratification**
+**Development and Benchmark Validation of PubChat, a PubMed-Grounded AI Framework for Multilingual Biomedical Literature Retrieval and Relevance Stratification**
 
 ---
 
