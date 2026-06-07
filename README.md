@@ -2,7 +2,7 @@
 
 This repository contains the supplementary materials for the manuscript:
 
-**PubChat: An Autonomous AI Agent for Zero-Hallucination Biomedical Literature Retrieval and Evidence-Based Hypothesis Generation**
+**PubChat: Development and Benchmark Validation of PubChat, a PubMed-Grounded AI Framework for Multilingual Biomedical Literature Retrieval and Relevance Stratification**
 
 ---
 
